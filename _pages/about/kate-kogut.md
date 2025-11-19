@@ -1,2 +1,3 @@
 <h4> <strong> Kate Kogut </strong> </h4>
-Joined in January 2025
+- **Lab Member**: 2025
+- **Current Position**: Biochemistry major

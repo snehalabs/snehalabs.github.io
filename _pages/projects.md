@@ -5,8 +5,7 @@ permalink: /research/
 description: Selected research from the Sneha Lab
 nav: true
 nav_order: 2
-display_categories: [research]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
