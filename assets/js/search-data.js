@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
+        },{id: "nav-news",
+          title: "News",
+          description: "News and Announcements from the Sneha Lab",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -360,18 +367,48 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-the-first-paper-from-our-lab",
+          title: 'The first paper from our lab',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "news-snehalab-at-the-science-day-at-dartmouth",
+          title: 'Snehalab at the Science Day at Dartmouth!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-zayda-kellogg-joins-our-lab-welcome-zayda",
+          title: 'Zayda Kellogg joins our lab. Welcome Zayda!',
+          description: "",
+          section: "News",},{id: "news-sohini-mandal-wins-nesacs-travel-grant",
+          title: 'Sohini Mandal wins NESACS Travel Grant',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-we-went-apple-picking",
+          title: 'We went apple-picking!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-happy-halloween",
+          title: 'Happy Halloween!',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
+            },},{id: "news-having-fun-with-spices-at-the-national-chemistry-week",
+          title: 'Having fun with spices at the  National Chemistry Week.',
+          description: "",
+          section: "News",},{id: "projects-chemistry-at-the-air-water-interface",
+          title: 'Chemistry at the Air-Water Interface',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1/";
+            },},{id: "projects-mechanistic-investigation-of-photoredox-catalyzed-chemistry",
+          title: 'Mechanistic Investigation of Photoredox Catalyzed Chemistry',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
